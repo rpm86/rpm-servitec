@@ -1,0 +1,106 @@
+/*
+    STYLES GUIDE:
+    0. RESET
+    1. LAYOUT
+    2. GENERIC ITEMS
+    3. PARTS OF THE WEB
+    4. LIST
+    5. FORM
+    6. ANIMATIONS
+    -------------------------
+    COLORS:
+        color1 => #2c3e56;
+        color2 => #34495e;
+        color3 => #3498db;
+        color 4 => #fff;
+*/
+
+/* 0 RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1 LAYOUT */
+
+body { text-align: center; font: 300 20px/1.7  'Roboto Condensed'; }
+    .header { display: flex; justify-content: center; align-items: center; background: rgb(44, 41, 41);}
+    .navbar { display: flex; justify-content: center; align-items: center; background: #598cbe; }
+    .contact {text-align: left;}
+    .listProducts {display: flex; justify-content: center; align-items: center;}
+    .listServices {display: flex; justify-content: center; align-items: center;}
+
+/* 2 GENERIC ITEMS */
+
+    .header { height: 120px; background: url(../images/fondo1.jpg) no-repeat center top; background-size: cover;}
+    .navbar { height: 63px; background: #2c3e56;}
+        .navbar a { color: #fff; padding: 0 40px; text-decoration: none; text-transform: uppercase; font: 30px 'Stint Ultra Condensed';}
+    .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+    p {margin-bottom: 40px;}
+
+/* 3 PARTS OF THE WEB */
+
+    .content { padding: 40px 0; }
+        .who { background: #2c3e50; color: #fff;}
+        .who p {max-width: 1055px; margin: 0 auto;}
+       
+        .contentServices {background: #103d69; color:rgb(255, 255, 255);}
+        .contentServices p {max-width: 1055px; margin: 0 auto;}
+
+        .contentContact { background: url(../images/fondo1.jpg) no-repeat center top; background-size: cover; color: #fff;}
+        .who p {max-width: 1055px; margin: 0 auto;}
+        .contentContact p {max-width: 450px;}
+        
+        .localization {color: #34495e; padding-bottom: 0;}
+            .map img {max-width: 100%; width: 100%;}
+
+/* 4 LIST */
+
+/* 5 FORM */
+
+/* 6 ANIMATIONS */
